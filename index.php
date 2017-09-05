@@ -7,6 +7,7 @@
 <body>
 	<?php 
 		include 'conexao.php';
+		//Estive aqui
 		$banco = startConnection();
 		$sql = "SELECT * FROM produtos";
 		$qr = mysqli_query($banco,$sql);
